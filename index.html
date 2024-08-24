@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Git and CI/CD</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #0b6606;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #0c6608;
+            margin: 0;
+        }
+
+        header p {
+            color: #555;
+            font-size: 1.2em;
+        }
+
+        /* Section Styles */
+        section {
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #007bff;
+            margin-bottom: 10px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        section h2::after {
+            content: '';
+            width: 50px;
+            height: 4px;
+            background-color: #007bff;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        section ul li {
+            background-color: #f1f1f1;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 5px solid #007bff;
+            font-size: 1.1em;
+        }
+
+        /* Code Block Styles */
+        code {
+            background-color: #e7f1ff;
+            color: #007bff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Understanding Git and CI/CD</h1>
+            <p>GUVI Geek Networks <a href="https://www.guvi.in/"> Guvi.in</a></p>
+
+            <p>Empowering your development workflow with version control and automation.</p>
+        </header>
+
+        <section>
+            <h2>Git Commands</h2>
+            <p>Here are some common Git commands that you should know:</p>
+            <ul>
+                <li><code>git init</code>: Initialize a new Git repository</li>
+                <li><code>git clone &lt;repository-url&gt;</code>: Clone a repository from a remote server</li>
+                <li><code>git add &lt;file&gt;</code>: Add changes to the staging area</li>
+                <li><code>git commit -m "commit message"</code>: Commit changes to the repository</li>
+                <li><code>git push &lt;remote&gt; &lt;branch&gt;</code>: Push local changes to a remote repository</li>
+                <li><code>git pull &lt;remote&gt; &lt;branch&gt;</code>: Fetch and merge changes from a remote repository</li>
+                <li><code>git branch</code>: List, create, or delete branches</li>
+                <li><code>git merge &lt;branch&gt;</code>: Merge changes from another branch into the current branch</li>
+                <li><code>git checkout &lt;branch|file&gt;</code>: Switch branches or restore working tree files</li>
+                <li><code>git log</code>: View commit history</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Why Git and CI/CD are Helpful?</h2>
+            <p>Git provides powerful tools for version control, enabling collaborative development and easy management of code changes. When combined with CI/CD, the development process becomes even more efficient by automating testing and deployment.</p>
+            <p>Benefits of using Git with CI/CD pipelines include:</p>
+            <ul>
+                <li>Continuous integration of code changes, ensuring code is always in a deployable state</li>
+                <li>Automated testing, reducing the likelihood of bugs reaching production</li>
+                <li>Continuous deployment, allowing for rapid and reliable delivery of applications</li>
+                <li>Shortened feedback loops, enabling faster iterations and improvements</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>For more details, visit <a href="https://git-scm.com/doc">Git Documentation</a> and <a href="https://www.redhat.com/en/topics/devops/what-is-ci-cd">CI/CD Explained</a>.</p>
+
+        </footer>
+    </div>
+</body>
+</html>
